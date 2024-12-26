@@ -12,6 +12,25 @@ A responsive React application to explore Pokémon data using the Pokémon API.
 - Loading spinner and error handling for better UX.
 - Fully responsive design using Tailwind CSS.
 
+## **Fixes and Improvements**
+
+**Error Handling:**
+Added a try-catch block in the fetchAllPokemon function to catch API errors.
+Displays a friendly error message if fetching fails.
+
+**Loading State:**
+A spinner is displayed centrally while data is being fetched.
+
+**Conditional Rendering:**
+The component handles three states: loading, error, and success.
+
+**Pagination Logic:**
+The Pokémon list is sliced based on the current page, and numbered pagination buttons work seamlessly.
+**Dynamic Pagination**: Handles a large number of Pokémon and dynamically generates pagination buttons.
+
+**Responsive Design:**
+Ensures a grid layout for Pokémon cards that adapts to different screen sizes.
+
 ## Setup Instructions
 
 1. Clone the repository:
