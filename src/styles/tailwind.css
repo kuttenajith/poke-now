@@ -1,0 +1,14 @@
+.loader {
+    border-top-color: transparent;
+    animation: spin 1s linear infinite;
+}
+
+.top-section {
+    display: flex;
+}
+
+@keyframes spin {
+    to {
+        transform: rotate(360deg);
+    }
+}
