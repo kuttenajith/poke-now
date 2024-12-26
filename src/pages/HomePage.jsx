@@ -98,7 +98,7 @@ const HomePage = () => {
           type="search"
           value={searchInput}
           onChange={handleSearchChange}
-          placeholder="Search Pokémon by name or ID..."
+          placeholder="Search Pokemon by name"
           className="w-full p-2 border border-gray-300 rounded-lg dark:border-gray-600"
         />
         {suggestions.length > 0 && (

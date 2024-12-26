@@ -20,7 +20,7 @@ const FavoritesPage = () => {
       <div className="sticky top-0 z-20 bg-gray-100 dark:bg-gray-800 ">
         <button
           onClick={() => navigate("/")}
-          className="p-2 my-4 bg-blue-500 text-white rounded"
+          className="p-2 my-4 bg-blue-500 text-white rounded hover:bg-blue-600"
         >
           Back to Home
         </button>
@@ -64,7 +64,7 @@ const FavoritesPage = () => {
               )}
               <button
                 onClick={() => removeFavorite(pokemon.name)}
-                className="p-2 bg-red-500 text-white rounded"
+                className="p-2 bg-red-500 text-white rounded hover:bg-red-600"
               >
                 Remove
               </button>

@@ -58,7 +58,7 @@ const PokemonDetailPage = () => {
           </div>
         ) : ''
       }
-      <button onClick={() => navigate(-1)} className="p-2 bg-blue-500 text-white rounded mb-4">
+      <button onClick={() => navigate(-1)} className="p-2 bg-blue-500 text-white rounded mb-4 hover:bg-blue-600">
         Back
       </button>
       {pokemon && (
@@ -77,7 +77,7 @@ const PokemonDetailPage = () => {
           </ul>
           <button
             onClick={handleAddToFavorites}
-            className="mt-4 p-2 bg-green-500 text-white rounded"
+            className="mt-4 p-2 bg-green-500 text-white rounded hover:bg-green-600"
           >
             Add to Favorites
           </button>
