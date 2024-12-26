@@ -28,7 +28,7 @@ The component handles three states: loading, error, and success.
 The Pokémon list is sliced based on the current page, and numbered pagination buttons work seamlessly.
 **Dynamic Pagination**: Handles a large number of Pokémon and dynamically generates pagination buttons.
 
-Responsive Design:****
+**Responsive Design:**
 Ensures a grid layout for Pokémon cards that adapts to different screen sizes.
 
 ## Setup Instructions
