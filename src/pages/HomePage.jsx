@@ -9,7 +9,7 @@ const HomePage = () => {
   const [searchInput, setSearchInput] = useState("");
   const [suggestions, setSuggestions] = useState([]);
   const [allPokemon, setAllPokemon] = useState([]);
-  const [paginatedPokemon, setPaginatedPokemon] = useState([]);
+  const [, setPaginatedPokemon] = useState([]);
   const [currentPage, setCurrentPage] = useState(1);
   const [darkMode, setDarkMode] = useState(false);
   const [loading, setLoading] = useState(true);
